@@ -1,0 +1,167 @@
+<div class="container-fluid">
+    <div class="row">
+    <div class="header col-xs-12 col-md-12">
+    <h1>#SNU_Escape</h1>
+    <table class="menubox"><tr>
+        <td class="menu bookmenu">[ 예 - 약 ]</td>
+        <td class="menu intromenu">[ 소 - 개 ]</td>
+        <td class="menu infomenu">[ 안 - 내 ]</td>
+        </tr></table><br>
+    </div>
+    </div>
+    
+<div class="row">
+<div class="content col-xs-12 col-md-10 col-md-offset-1" id="book">
+<table class="table table-hover">
+  <tr>
+    <th>시간</th>
+    <th>4/17(월)</th>
+    <th>4/18(화)</th>
+    <th>4/19(수)</th>
+    <th>4/20(목)</th>
+  </tr>
+  <tr class="time11">
+    <td class="tg-yw4l">11시~12시</td>
+    <td class="date17"><%= showdata(17, 11) %></td>
+    <td class="date18"><%= showdata(18, 11) %></td>
+    <td class="date19"><%= showdata(19, 11) %></td>
+    <td class="date20"><%= showdata(20, 11) %></td>
+  </tr>
+  <tr class="time12">
+    <td class="tg-yw4l">12시~1시</td>
+    <td class="date17"><%= showdata(17, 12) %></td>
+    <td class="date18"><%= showdata(18, 12) %></td>
+    <td class="date19"><%= showdata(19, 12) %></td>
+    <td class="date20"><%= showdata(20, 12) %></td>
+  </tr>
+  <tr class="time13">
+    <td class="tg-yw4l">1시~2시</td>
+    <td class="date17"><%= showdata(17, 13) %></td>
+    <td class="date18"><%= showdata(18, 13) %></td>
+    <td class="date19"><%= showdata(19, 13) %></td>
+    <td class="date20"><%= showdata(20, 13) %></td>
+  </tr>
+  <tr class="time14">
+    <td class="tg-yw4l">2시~3시</td>
+    <td class="date17"><%= showdata(17, 14) %></td>
+    <td class="date18"><%= showdata(18, 14) %></td>
+    <td class="date19"><%= showdata(19, 14) %></td>
+    <td class="date20"><%= showdata(20, 14) %></td>
+  </tr>
+  <tr class="time15">
+    <td class="tg-yw4l">3시~4시</td>
+    <td class="date17"><%= showdata(17, 15) %></td>
+    <td class="date18"><%= showdata(18, 15) %></td>
+    <td class="date19"><%= showdata(19, 15) %></td>
+    <td class="date20"><%= showdata(20, 15) %></td>
+  </tr>
+  <tr class="time16">
+    <td class="tg-yw4l">4시~5시</td>
+    <td class="date17"><%= showdata(17, 16) %></td>
+    <td class="date18"><%= showdata(18, 16) %></td>
+    <td class="date19"><%= showdata(19, 16) %></td>
+    <td class="date20"><%= showdata(20, 16) %></td>
+  </tr>
+  <tr class="time17">
+    <td class="tg-yw4l">5시~6시</td>
+    <td class="date17"><%= showdata(17, 17) %></td>
+    <td class="date18"><%= showdata(18, 17) %></td>
+    <td class="date19"><%= showdata(19, 17) %></td>
+    <td class="date20"><%= showdata(20, 17) %></td>
+  </tr>
+  <tr class="time18">
+    <td class="tg-yw4l">6시~7시</td>
+    <td class="date17"><%= showdata(17, 18) %></td>
+    <td class="date18"><%= showdata(18, 18) %></td>
+    <td class="date19"><%= showdata(19, 18) %></td>
+    <td class="date20"><%= showdata(20, 18) %></td>
+  </tr>
+  <tr class="time19">
+    <td class="tg-yw4l">7시~8시</td>
+    <td class="date17"><%= showdata(17, 19) %></td>
+    <td class="date18"><%= showdata(18, 19) %></td>
+    <td class="date19"><%= showdata(19, 19) %></td>
+    <td class="date20"><%= showdata(20, 19) %></td>
+  </tr>
+</table>
+<p>SNU_Escape는 선불예약제로 운영됩니다. 예약문의는 010-1234-5678(동기동기)에게!</p>
+</div>
+<br><br><br><br>
+<div id="intro" class="content col-xs-12 col-md-10 col-md-offset-1">
+    소개<br>
+<img src="http://kaydash.dothome.co.kr/nokyoun/1_m/img/link.png">
+</div>
+
+<div id="info" class="content col-xs-12 col-md-10 col-md-offset-1">
+    안내<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/CCTV_Surveillance_Notice.svg/925px-CCTV_Surveillance_Notice.svg.png">
+</div>
+
+
+</div>
+</div>
+
+<style>
+
+    body {
+        background-color: #53777A;
+        font-family: san-serif;
+        color: white;
+    }
+    
+    h{
+        font-size: 2vw;
+    }
+    
+    .header{
+        position: fixed;
+        text-align: center;
+        font-family: 'Hanna', serif;
+        background-color: #C02942;
+        color: white;
+        height:130px;
+        z-index: 1000;
+    }
+    
+    .menubox{
+        width: 100%;
+    }
+    .menu{
+        width: 33%;
+    }
+
+    table{
+        margin: auto;
+    }
+    
+    .table{
+        background-color: #ECE5CE;
+        border-radius:20px;
+        font-size: 13px;
+        color: #202020;
+    }
+    
+    .tg-yw4l {
+        font-weight: bold;
+    }
+    
+    th {
+        background-color: #542437;
+        color: white;
+        font-size: 1.8vw;
+    }
+    
+    td {
+        width: 20%;
+        font-size: 1.8vw;
+    }
+    
+    .content {
+        
+        margin-top: 125px;
+        text-align: center;
+        font-size: 1.5vw;
+        color: white;
+    }
+    
+</style>
